@@ -51,9 +51,7 @@
                 <div class="col-lg-4 col-md-6 p-4">
                     <div class="card border-primary rounded custom-shadow">
                         {% if product.image %}
-                        {{ product.image.url }}
-                        {% comment %} <img src="{{ product.image.url }}" alt=""> {% endcomment %}
-                            {% comment %} <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}"> {% endcomment %}
+                            <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
                         {% else %}
                             <img src="{% static "deps/images/Not found image.png" %}" class="card-img-top" alt="...">
                         {% endif %}
