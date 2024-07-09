@@ -25,7 +25,7 @@ class Products(models.Model):
     image = models.ImageField(
         upload_to="goods_images", blank=True, null=True, verbose_name="Картинка"
     )
-    prise = models.DecimalField(
+    price = models.DecimalField(
         default=0.00, max_digits=7, decimal_places=2, verbose_name="Цена"
     )
     discount = models.DecimalField(
@@ -48,5 +48,5 @@ class Products(models.Model):
 
     def sell_price(self):
         if self.discount:
-            return round(self.prise - self.prise * self.discount / 100, 2)
-        return self.prise
+            return round(self.price - self.price * self.discount / 100, 2)
+        return self.price
