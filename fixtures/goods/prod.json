@@ -7,7 +7,7 @@
 			"slug": "chajnyj-stolik-i-tri-stula",
 			"description": "Комплект из трёх стульев и дизайнерский столик для гостинной комнаты.",
 			"image": "",
-			"prise": "150.00",
+			"price": "150.00",
 			"discount": "0.00",
 			"quantity": 10,
 			"category": 5
@@ -21,7 +21,7 @@
 			"slug": "chajnyj-stolik-i-dva-stula",
 			"description": "Набор из стола и двух стульев в минималистическом стиле.",
 			"image": "",
-			"prise": "93.00",
+			"price": "93.00",
 			"discount": "0.00",
 			"quantity": 9,
 			"category": 5
@@ -35,7 +35,7 @@
 			"slug": "dvuhspalnaya-krovat",
 			"description": "Кровать двухспальная с надголовником и вообще очень ортопедичная.",
 			"image": "",
-			"prise": "670.00",
+			"price": "670.00",
 			"discount": "0.00",
 			"quantity": 7,
 			"category": 6
@@ -49,7 +49,7 @@
 			"slug": "uglovoj-divan-dlya-gostinnoj",
 			"description": "Угловой диван, раскладывается в двухспальную кровать, для гостиной и приема гостей самое то!",
 			"image": "",
-			"prise": "610.00",
+			"price": "610.00",
 			"discount": "0.00",
 			"quantity": 5,
 			"category": 7
@@ -63,7 +63,7 @@
 			"slug": "prikrovatnyj-stolik",
 			"description": "Прикроватный столик с двумя выдвижными ящиками (цветок не входит в комплект",
 			"image": "",
-			"prise": "55.00",
+			"price": "55.00",
 			"discount": "0.00",
 			"quantity": 10,
 			"category": 6
